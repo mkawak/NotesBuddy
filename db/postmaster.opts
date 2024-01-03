@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/16/bin/postgres "-D" "/Users/majd/PycharmProjects/NotesBuddy/db" "-p" "5432"

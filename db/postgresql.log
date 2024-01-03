@@ -1,0 +1,57 @@
+2024-01-01 20:38:27.280 PST [26841] LOG:  starting PostgreSQL 16.1 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-01-01 20:38:27.281 PST [26841] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-01 20:38:27.281 PST [26841] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-01 20:38:27.281 PST [26841] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-01 20:38:27.283 PST [26844] LOG:  database system was shut down at 2024-01-01 20:38:27 PST
+2024-01-01 20:38:27.284 PST [26841] LOG:  database system is ready to accept connections
+2024-01-01 20:43:27.287 PST [26842] LOG:  checkpoint starting: time
+2024-01-01 20:46:44.580 PST [26842] LOG:  checkpoint complete: wrote 1957 buffers (11.9%); 0 WAL file(s) added, 0 removed, 1 recycled; write=197.275 s, sync=0.016 s, total=197.294 s; sync files=677, longest=0.001 s, average=0.001 s; distance=9248 kB, estimate=9248 kB; lsn=0/205BCF0, redo lsn=0/2051B08
+2024-01-01 21:28:27.635 PST [26842] LOG:  checkpoint starting: time
+2024-01-01 21:28:29.059 PST [26842] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.418 s, sync=0.003 s, total=1.424 s; sync files=8, longest=0.001 s, average=0.001 s; distance=42 kB, estimate=8327 kB; lsn=0/205C698, redo lsn=0/205C660
+2024-01-01 23:20:00.466 PST [26842] LOG:  checkpoint starting: time
+2024-01-01 23:20:03.404 PST [26842] LOG:  checkpoint complete: wrote 30 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.932 s, sync=0.006 s, total=2.939 s; sync files=24, longest=0.001 s, average=0.001 s; distance=102 kB, estimate=7505 kB; lsn=0/2089EC0, redo lsn=0/2076160
+2024-01-02 15:50:31.412 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 15:50:32.839 PST [26842] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.421 s, sync=0.003 s, total=1.427 s; sync files=9, longest=0.001 s, average=0.001 s; distance=79 kB, estimate=6762 kB; lsn=0/208A038, redo lsn=0/2089FE8
+2024-01-02 16:25:31.881 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 16:25:32.696 PST [26842] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.811 s, sync=0.003 s, total=0.816 s; sync files=9, longest=0.001 s, average=0.001 s; distance=18 kB, estimate=6088 kB; lsn=0/208E938, redo lsn=0/208E900
+2024-01-02 16:30:31.700 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 16:30:31.805 PST [26842] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.106 s; sync files=1, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=5479 kB; lsn=0/208EBD0, redo lsn=0/208EB98
+2024-01-02 17:25:59.070 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 17:25:59.885 PST [26842] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.810 s, sync=0.003 s, total=0.816 s; sync files=7, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=4932 kB; lsn=0/2090FB8, redo lsn=0/2090F80
+2024-01-02 20:07:10.148 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:07:11.269 PST [26842] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.117 s, sync=0.003 s, total=1.122 s; sync files=10, longest=0.001 s, average=0.001 s; distance=35 kB, estimate=4442 kB; lsn=0/2099EC8, redo lsn=0/2099E90
+2024-01-02 20:12:10.267 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:12:10.373 PST [26842] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.002 s, total=0.106 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=3998 kB; lsn=0/209A168, redo lsn=0/209A130
+2024-01-02 20:17:10.371 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:17:10.884 PST [26842] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.508 s, sync=0.002 s, total=0.513 s; sync files=6, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3598 kB; lsn=0/209A878, redo lsn=0/209A840
+2024-01-02 20:31:05.320 PST [35308] ERROR:  column "note_number" of relation "server_note" already exists
+2024-01-02 20:31:05.320 PST [35308] STATEMENT:  ALTER TABLE "server_note" ADD COLUMN "note_number" integer NULL
+2024-01-02 20:32:10.895 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:32:11.304 PST [26842] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.406 s, sync=0.002 s, total=0.410 s; sync files=5, longest=0.001 s, average=0.001 s; distance=17 kB, estimate=3240 kB; lsn=0/209EC90, redo lsn=0/209EC58
+2024-01-02 20:37:10.312 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:37:10.417 PST [26842] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.001 s, total=0.105 s; sync files=2, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=2916 kB; lsn=0/209F100, redo lsn=0/209F0C8
+2024-01-02 20:57:10.420 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 20:57:10.525 PST [26842] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.106 s; sync files=2, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=2625 kB; lsn=0/209F7D8, redo lsn=0/209F7A0
+2024-01-02 21:02:10.525 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:02:11.039 PST [26842] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.509 s, sync=0.002 s, total=0.514 s; sync files=6, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=2363 kB; lsn=0/20A07B8, redo lsn=0/20A0780
+2024-01-02 21:07:10.051 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:07:10.156 PST [26842] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.106 s; sync files=2, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=2126 kB; lsn=0/20A1148, redo lsn=0/20A1110
+2024-01-02 21:17:10.159 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:17:11.272 PST [26842] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.111 s, sync=0.001 s, total=1.114 s; sync files=9, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=1915 kB; lsn=0/20A3428, redo lsn=0/20A33F0
+2024-01-02 21:22:10.274 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:22:10.482 PST [26842] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.205 s, sync=0.001 s, total=0.208 s; sync files=3, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=1723 kB; lsn=0/20A3F70, redo lsn=0/20A3F38
+2024-01-02 21:27:10.483 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:27:10.690 PST [26842] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.204 s, sync=0.002 s, total=0.208 s; sync files=3, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=1551 kB; lsn=0/20A43D8, redo lsn=0/20A43A0
+2024-01-02 21:34:34.881 PST [36871] ERROR:  column "note_number" of relation "server_note" already exists
+2024-01-02 21:34:34.881 PST [36871] STATEMENT:  ALTER TABLE "server_note" ADD COLUMN "note_number" integer NULL
+2024-01-02 21:37:10.719 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:37:10.723 PST [26842] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=1, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=1396 kB; lsn=0/20A4550, redo lsn=0/20A4518
+2024-01-02 21:42:10.726 PST [26842] LOG:  checkpoint starting: time
+2024-01-02 21:42:11.035 PST [26842] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.002 s, total=0.309 s; sync files=4, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=1257 kB; lsn=0/20A5070, redo lsn=0/20A5038
+2024-01-02 21:56:30.183 PST [26841] LOG:  received fast shutdown request
+2024-01-02 21:56:30.184 PST [26841] LOG:  aborting any active transactions
+2024-01-02 21:56:30.189 PST [26841] LOG:  background worker "logical replication launcher" (PID 26847) exited with exit code 1
+2024-01-02 21:56:30.189 PST [26842] LOG:  shutting down
+2024-01-02 21:56:30.190 PST [26842] LOG:  checkpoint starting: shutdown immediate
+2024-01-02 21:56:30.192 PST [26842] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=1131 kB; lsn=0/20A5120, redo lsn=0/20A5120
+2024-01-02 21:56:30.199 PST [26841] LOG:  database system is shut down
