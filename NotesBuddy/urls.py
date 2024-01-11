@@ -18,7 +18,7 @@ import os
 
 from django.contrib import admin
 from django.urls import path, re_path, include
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, RedirectView
 from django.views.static import serve
 
 from NotesBuddy.settings import BASE_DIR
@@ -31,6 +31,7 @@ urlpatterns = [
         'path': 'manifest.json', 'document_root': os.path.join(BASE_DIR, 'client/build'),
     }),
     path('admin/', admin.site.urls),
+    path('admin', RedirectView.as_view(url='/admin/', permanent=True)),
     path('server/', include('server.urls')),
     re_path('.*', TemplateView.as_view(template_name='index.html'))
 ]
