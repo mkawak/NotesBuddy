@@ -7,7 +7,7 @@ currently hosted on Heroku, providing easy access from anywhere.
 
 ## Live Demo
 
-Try the live demo of the application here: [NotesBuddy](https://notesbuddy-d3514cb3a347.herokuapp.com/)
+Try the live demo of the application here: [NotesBuddy](https://majdkawak.com/NotesBuddy/)
 
 ## Features
 
